@@ -148,7 +148,7 @@ int main()
             // Move the player1 paddle
             // Up
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Q) &&
-               (leftPaddle.getPosition().y - paddleSize.y / 2 > 5.f))
+               (leftPaddle.getPosition().y + paddleSize.y / 2 > 5.f))
             {
                 leftPaddle.move(0.f, -paddleSpeed * deltaTime);
             }
