@@ -84,7 +84,7 @@ int main()
     sf::Clock AITimer;
     const sf::Time AITime   = sf::seconds(0.1f);
     const float paddleSpeed = 800.f;
-    const float ballSpeedConstant = 50.f;
+    const float ballSpeedConstant = 100.f;
     float ballSpeed[totalBall];
     float ballAngle[totalBall];
     for ( int i=0 ; i<totalBall ; ++i ) //initialize
